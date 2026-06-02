@@ -1,8 +1,8 @@
 replicaCount: 2
 
 image:
-  repository: <your-ecr-repo>/user-service
-  tag: "latest"
+  repository: 123456789.dkr.ecr.us-east-1.amazonaws.com/user-service
+  tag: latest
 
 service:
   type: ClusterIP
