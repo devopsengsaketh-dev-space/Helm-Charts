@@ -1,0 +1,16 @@
+replicaCount: 2
+
+image:
+  repository: <ECR_IMAGE>
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  path: /
+  host: ""
+
+nameOverride: ""
