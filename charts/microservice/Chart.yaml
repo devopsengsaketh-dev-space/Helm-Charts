@@ -1,1 +1,5 @@
-
+apiVersion: v2
+name: microservice
+description: Generic microservice Helm chart for all backend services
+type: application
+version: 0.1.0
